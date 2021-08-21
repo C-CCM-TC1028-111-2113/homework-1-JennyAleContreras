@@ -15,7 +15,7 @@ end_balance = float
 
 checks = check*13
 addition = ((incomes+balance)-(checks+expenses))
-interest = addition*0.075
+interest = addition*(7.5/100)
 end_balance = addition-interest
 
 print('The end balance is: ', end_balance)
