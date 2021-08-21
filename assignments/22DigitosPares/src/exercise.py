@@ -1,6 +1,6 @@
 def main():
     #escribe tu código abajo de esta línea
-    number = input('Introduce a number with 4 digits(starting without 0): ')
+    number = input('Dame un número: ')
     pair = int
 
     for i in range(0, 10):
@@ -14,5 +14,5 @@ def main():
         if int(number[3])%2 == 0:
             pair = pair + 1
                     
-    print('The number of pairs is: ', str(pair))
+    print('El número de dígitos pares es: ', str(pair))
     pass
