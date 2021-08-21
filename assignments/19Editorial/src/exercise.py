@@ -2,7 +2,7 @@ def main():
     #escribe tu código abajo de esta línea
     import math
 
-    words = int(input('Introduce the number of words: '))
+    words = int(input('Dame el número de palabras: '))
     cost = float
     pages = int
     descount = float
@@ -11,5 +11,5 @@ def main():
     descount = pages*0.10
     cost = pages-descount
 
-    print('The publishing cost is: ', cost)
+    print('El costo de la publicación es: ', cost)
     pass
