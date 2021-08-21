@@ -1,7 +1,7 @@
 def main():
     #escribe tu código abajo de esta línea
-    new_vg = int(input('Introduce the number of new videogames: '))
-    old_vg = int(input('Introduce the number of old videogames: '))
+    new_vg = int(input('Dame la cantidad de juegos nuevos: '))
+    old_vg = int(input('Dame la cantidad de juegos usados: '))
     cost = int
     cost_old = int
     cost_new = int
@@ -10,5 +10,5 @@ def main():
     cost_new = new_vg*1000
     cost = cost_new+cost_old
 
-    print('The total cost is: ', cost)
+    print('El total de la compra es: ', cost)
     pass
