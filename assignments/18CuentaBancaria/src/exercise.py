@@ -1,5 +1,6 @@
 def main():
     #escribe tu código abajo de esta línea
+    pass
     
     balance = float(input('Introduce the balance from the previous month: '))
     incomes = float(input('Introduce the incomes: '))
