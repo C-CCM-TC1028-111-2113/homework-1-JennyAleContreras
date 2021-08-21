@@ -1,5 +1,7 @@
 def main():
     #escribe tu código abajo de esta línea
+    pass
+    main()
 balance = float(input('Introduce the balance from the previous month: '))
 incomes = float(input('Introduce the incomes: '))
 expenses = float(input('Introduce the expenses: '))
@@ -15,6 +17,3 @@ interest = addition*(7.5/100)
 end_balance = addition-interest
 
 print('The end balance is: ', end_balance)
-   
-    pass
-    main()
