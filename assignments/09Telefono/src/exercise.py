@@ -1,8 +1,8 @@
 def main():
     #escribe tu código abajo de esta línea
-    messages = int(input('Introduce the number of messages: '))
-    megas = float(input('Introduce the number of megas: '))
-    minutes = float(input('Introduce the number of minutes: '))
+    messages = int(input('Dame el número de mensajes: '))
+    megas = float(input('Dame el número de megas: '))
+    minutes = float(input('Dame el número de minutos: '))
     cost_message = float
     cost_mega = float
     cost_minute = float
@@ -13,5 +13,5 @@ def main():
     cost_minute = 0.80*minutes
     cost = cost_message+cost_mega+cost_minute
 
-    print('The monthly cost is: ', cost)
+    print('El costo mensual es: ', cost)
     pass
