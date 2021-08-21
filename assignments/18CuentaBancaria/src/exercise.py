@@ -17,6 +17,4 @@ end_balance = addition-interest
 print('The end balance is: ', end_balance)
    
     pass
-
-if __name__=='__main__':
     main()
