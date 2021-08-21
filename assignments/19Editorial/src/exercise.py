@@ -2,6 +2,15 @@ def main():
     #escribe tu código abajo de esta línea
     pass
 
+import math
 
-if __name__ == '__main__':
-    main()
+words = int(input('Introduce the number of words: '))
+cost = float
+pages = int
+descount = float
+
+pages = (math.ceil(words/475))*60
+descount = pages*0.10
+cost = pages-descount
+
+print('The publishing cost is: ', cost)
