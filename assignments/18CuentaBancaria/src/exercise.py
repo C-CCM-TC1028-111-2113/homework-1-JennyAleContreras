@@ -15,4 +15,3 @@ interest = addition*(7.5/100)
 end_balance = addition-interest
 
 print('The end balance is: ', end_balance)
-    pass
