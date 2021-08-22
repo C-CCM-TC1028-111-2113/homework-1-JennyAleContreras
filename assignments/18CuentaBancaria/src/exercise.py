@@ -1,6 +1,6 @@
 def main():
     #escribe tu código abajo de esta línea
-    balance = float(input('Dame el saldo del mes anterior: '))
+    balance = float(input('Dame el saldo del mes anterior: ',"%.2f"))
     incomes = float(input('Dame los ingresos: '))
     expenses = float(input('Dame los egresos: '))
     check = int(input('Dame el número de cheques: '))
@@ -10,7 +10,7 @@ def main():
     end_balance = float
 
     checks = check*13
-    addition = ((incomes+("%.5f"%balance))-(checks+expenses))
+    addition = ((incomes+balance)-(checks+expenses))
     interest = addition*(7.5/100)
     end_balance = addition-interest
 
