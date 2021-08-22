@@ -7,7 +7,7 @@ def main():
     y2 = float(input('Dame y2: '))
     m = float
 
-    m = (y2-y1)/(x2-x1)
+    m=(y2-y1)/(x2-x1)
 
     print('Pendiente: ',m)
     pass
