@@ -11,7 +11,7 @@ def main():
     descount = pages*0.10
     cost = pages-descount
 
-    print('El costo de la publicación es: ',cost)
+    print('El costo de la publicación es:',cost)
     pass
 if __name__ == '__main__':
     main()
