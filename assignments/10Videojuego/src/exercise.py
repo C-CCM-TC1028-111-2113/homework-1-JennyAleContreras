@@ -10,5 +10,7 @@ def main():
     cost_new = new_vg*1000
     cost = cost_new+cost_old
 
-    print('El total de la compra es: ', cost)
+    print('El total de la compra es: ',cost)
     pass
+if __name__ == '__main__':
+    main()
