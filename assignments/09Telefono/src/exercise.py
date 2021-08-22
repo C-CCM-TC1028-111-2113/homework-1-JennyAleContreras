@@ -13,5 +13,7 @@ def main():
     cost_minute = 0.80*minutes
     cost = cost_message+cost_mega+cost_minute
 
-    print('El costo mensual es: ', cost)
+    print('El costo mensual es: ',cost)
     pass
+if __name__ == '__main__':
+    main()
