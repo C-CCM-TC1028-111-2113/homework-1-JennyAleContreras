@@ -9,7 +9,6 @@ def main():
     addition = float
     end_balance = float
 
-    balance = "%.5f"%balance 
     checks = check*13
     addition = ((incomes+balance)-(checks+expenses))
     interest = addition*(7.5/100)
