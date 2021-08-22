@@ -14,5 +14,7 @@ def main():
     interest = addition*(7.5/100)
     end_balance = addition-interest
 
-    print('El saldo final de la cuenta es: ', end_balance)
+    print('El saldo final de la cuenta es: ',end_balance)
     pass
+if __name__ == '__main__':
+    main()
