@@ -6,7 +6,7 @@ def main():
 
     cm = ((5.7*60)/10)*s
 
-    print('Centímentros recorridos: ',"%.1f" % cm)
+    print('Centímentros recorridos:',"%.1f" % cm)
     pass
 if __name__ == '__main__':
     main()
