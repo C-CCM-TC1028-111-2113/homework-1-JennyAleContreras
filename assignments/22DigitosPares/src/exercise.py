@@ -14,7 +14,7 @@ def main():
         if int(number[3])%2 == 0:
             pair = pair + 1
                     
-    print('El número de dígitos pares es: ',str(pair))
+    print('El número de dígitos pares es:',str(pair))
     pass
 if __name__ == '__main__':
     main()
