@@ -1,6 +1,5 @@
 def main():
     #escribe tu código abajo de esta línea
-    import math
 
     s = float(input('Dame los minutos: '))
     cm = float
