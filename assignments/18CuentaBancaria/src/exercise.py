@@ -5,7 +5,7 @@ def main():
     expenses = float(input('Dame los egresos: '))
     check = int(input('Dame el número de cheques: '))
     checks = int
-    nterest = float
+    interest = float
     addition = float
     end_balance = float
 
